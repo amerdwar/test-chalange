@@ -152,7 +152,6 @@ required
 }
 
 function mapState(state) {
-  debugger;
   const { articles ,alertModal} = state;
   const creating =articles.creating;
   const {image}= state.upload;
