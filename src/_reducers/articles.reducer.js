@@ -48,7 +48,6 @@ export function articles(state = {}, action) {
         }),
       };
     case articleConstants.CREATE_REQUEST:
-      debugger;
       return { creating: true };
     case articleConstants.CREATE_SUCCESS:
       return {};

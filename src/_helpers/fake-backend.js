@@ -293,10 +293,8 @@ export function configureFakeBackend() {
 
           return;
         }
-        debugger;
         if (url.endsWith("/upload") && opts.method === "POST") {
           // get new user object from post body
-          debugger;
           if (
             opts.headers &&
             opts.headers.Authorization === "Bearer fake-jwt-token"

@@ -13,7 +13,6 @@ export const articleService = {
 
 
 function getAll() {
-    debugger;
     const requestOptions = {
         method: 'GET',
         headers: authHeader()
