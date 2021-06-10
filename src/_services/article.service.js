@@ -16,6 +16,7 @@ function getAll() {
     const requestOptions = {
         method: 'GET',
         headers: authHeader()
+        //just comment
     };
 
     return fetch(`${config.apiUrl}/articles`, requestOptions).then(handleResponse);
